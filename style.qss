@@ -1,0 +1,64 @@
+/*Cambiar el estilo del formulario de suscripción*/
+
+
+QWidget#leftPanel {
+    background-color: #FFFFFF;
+}
+QWidget#GlobalWidget {
+    background-color: #FFFFFF;
+}
+
+QWidget#leftPanel > QPushButton {
+    
+    text-align: left;
+    padding-left: 10px;
+    max-height: 40;
+    min-height: 40;
+}
+
+QWidget#scrollArea{
+    border: none;
+}
+
+QWidget#scrollArea > widgetSubscriptionForm {
+    background-color: #FFFFFF{
+   
+}
+
+
+
+#centralPanel {
+    background-color: #f2f5fa;
+}
+
+
+#upperPanel {
+    background-color: #F2F5FA;
+}
+
+QScrollBar:vertical {
+	border: none;
+	background: rgb(75, 75, 75);
+	width: 14px;
+	margin: 15px 0 15px 0;
+	border-radius: 0px;
+}
+
+
+
+/*QLabel, QLineEdit, QPushButton, QSpinBox, QCheckBox, QComboBox, QDateEdit{
+	color: black;
+}
+
+#widgetSubscriptionForm{
+	background-color: #FFFFFF;
+}
+
+QLabel, QLineEdit, QSpinBox, QCheckBox{
+	background-color: #FFFFFF;
+}
+
+#widget_2, #widget_3, #widget_4, #widget_5, #widget_6, #widget_7, #widget_8, #widget_17{
+	background-color: #FFFFFF;
+	border-bottom: 0.5px solid #D0D3D4;
+}*/
